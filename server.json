@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.imiraoui/winelabs",
   "title": "Wine Labs",
-  "description": "Fine-wine market intelligence for matching, pricing, auctions, exchanges, merchants, critics, venues, portfolios, and cellar workflows.",
+  "description": "Fine-wine matching, pricing, auctions, exchange, merchant, critic, portfolio, and cellar intelligence.",
   "version": "1.0.0",
   "websiteUrl": "https://winelabs.ai/agents",
   "remotes": [
