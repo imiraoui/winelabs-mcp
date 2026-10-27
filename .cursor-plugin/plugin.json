@@ -1,0 +1,17 @@
+{
+  "name": "wine-labs",
+  "version": "1.0.0",
+  "description": "Fine-wine matching, pricing, auctions, merchant offers, and portfolio intelligence. Browser OAuth required.",
+  "author": {
+    "name": "Wine Labs"
+  },
+  "homepage": "https://winelabs.ai/agents",
+  "repository": "https://github.com/imiraoui/winelabs-mcp",
+  "license": "MIT",
+  "keywords": [
+    "wine",
+    "pricing",
+    "market-data"
+  ],
+  "mcpServers": ".mcp.json"
+}
