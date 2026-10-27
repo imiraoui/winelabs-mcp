@@ -1,0 +1,10 @@
+{
+  "name": "winelabs-mcp",
+  "version": "1.0.0",
+  "description": "Fine-wine pricing, auctions, offers, matching, and portfolio intelligence. Browser OAuth and Wine Labs plans or credits apply.",
+  "mcpServers": {
+    "winelabs": {
+      "httpUrl": "https://chat.wine-labs.com/mcp"
+    }
+  }
+}
