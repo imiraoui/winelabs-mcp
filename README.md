@@ -71,3 +71,7 @@ A successful check includes a Wine Labs tool approval or result, not only a gree
 ## Source and licensing
 
 This repository contains public connection metadata and documentation for the hosted Wine Labs MCP service. It does not contain or license the proprietary Wine Labs server implementation or Wine Labs data. The documentation in this repository is released under the MIT License.
+
+## Cursor plugin
+
+This repository includes a Cursor plugin manifest at `.cursor-plugin/plugin.json`. It references the hosted Wine Labs MCP configuration in `.mcp.json`; no local server process is started. Complete Wine Labs browser OAuth after enabling it in Cursor. Account plans and credits determine data access. The public plugin metadata is MIT licensed; the hosted implementation and data remain proprietary.
