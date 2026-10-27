@@ -16,13 +16,13 @@ jobs:
 
       - name: Install verified MCP publisher
         env:
-          MCP_PUBLISHER_1.8.6: "1.8.6"
+          MCP_PUBLISHER_VERSION: "1.8.6"
           MCP_PUBLISHER_SHA256: "1fbe93fc0783c2394d8012c8d6e50a59e98cb2cc2d216264cc69f405d0e21340"
         run: |
           set -euo pipefail
           curl --proto '=https' --tlsv1.2 --fail --location --show-error --silent --retry 3 \
             --user-agent agent-local --output mcp-publisher.tar.gz \
-            "https://github.com/modelcontextprotocol/registry/releases/download/v${MCP_PUBLISHER_1.8.6}/mcp-publisher_linux_amd64.tar.gz"
+            "https://github.com/modelcontextprotocol/registry/releases/download/v${MCP_PUBLISHER_VERSION}/mcp-publisher_linux_amd64.tar.gz"
           printf '%s  %s\n' "$MCP_PUBLISHER_SHA256" mcp-publisher.tar.gz | sha256sum --check --strict
           tar --extract --gzip --file mcp-publisher.tar.gz -- mcp-publisher
 
