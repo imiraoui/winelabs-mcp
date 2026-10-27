@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "winelabs": {
+      "url": "https://chat.wine-labs.com/mcp"
+    }
+  }
+}
