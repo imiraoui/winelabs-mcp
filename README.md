@@ -75,3 +75,8 @@ This repository contains public connection metadata and documentation for the ho
 ## Cursor plugin
 
 This repository includes a Cursor plugin manifest at `.cursor-plugin/plugin.json`. It references the hosted Wine Labs MCP configuration in `.mcp.json`; no local server process is started. Complete Wine Labs browser OAuth after enabling it in Cursor. Account plans and credits determine data access. The public plugin metadata is MIT licensed; the hosted implementation and data remain proprietary.
+
+
+## Kiro Power
+
+The [`kiro-power`](./kiro-power/) folder contains the Kiro Power manifest, hosted MCP connection and usage skill. See its [setup guide](./kiro-power/README.md). [Privacy policy](https://winelabs.ai/privacy) · [Support](https://winelabs.ai/contact).

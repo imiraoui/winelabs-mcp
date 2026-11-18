@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "wine-labs",
+  "version": "1.0.0",
+  "description": "Research wine identities, prices, auctions and merchant offers using Wine Labs market intelligence.",
+  "author": {
+    "name": "Wine Labs",
+    "url": "https://winelabs.ai/agents"
+  },
+  "homepage": "https://winelabs.ai/agents",
+  "repository": "https://github.com/imiraoui/winelabs-mcp",
+  "license": "MIT",
+  "keywords": [
+    "wine labs",
+    "wine prices",
+    "wine matching",
+    "wine auction",
+    "wine portfolio",
+    "lwin"
+  ]
+}
